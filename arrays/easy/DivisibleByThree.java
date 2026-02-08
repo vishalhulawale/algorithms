@@ -24,7 +24,7 @@ public class DivisibleByThree {
         return sum % 3 == 0;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] ignoredArgs) {
         int[] input1 = {3, 1, 2};
         System.out.println(canFormDivisibleByThree(input1)); // Expected output: true
 

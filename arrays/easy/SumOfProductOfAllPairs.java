@@ -29,7 +29,7 @@ public class SumOfProductOfAllPairs {
         return ((sum * sum) - sumOfSquares) / 2;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] ignoredArgs) {
         int[] input1 = {1, 3, 4};
         System.out.println(getSumOfProductOfAllPairs(input1)); // Expected output: 19
 
