@@ -44,7 +44,7 @@ public class FirstNonRepeatingCharacter {
         for (int i = 0; i < input.length(); i++) {
             char ch = input.charAt(i);
             int chIndex = ((int) ch - 97);
-            arr[chIndex] = arr[chIndex]+1;
+            arr[chIndex] = arr[chIndex] + 1;
         }
         for (int i = 0; i < input.length(); i++) {
             char ch = input.charAt(i);

@@ -8,24 +8,12 @@ package arrays.easy;
 // Input: [["Bobby", "87"], ["Charles", "100"], ["Eric", "64"], ["Charles", "22"]]
 // Output: 87 (Bobby: 87, Charles: 61, Eric: 64)
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 public class BestAverageGradeWithFloor {
-
-    private static class Score {
-        int total = 0;
-        int count = 0;
-
-        void add(int marks) {
-            total += marks;
-            count++;
-        }
-
-        int avg() {
-            return total / count;
-        }
-    }
 
     public static int getBestAverageGradeV1(String[][] scores) {
         if (scores.length == 0)
@@ -106,5 +94,19 @@ public class BestAverageGradeWithFloor {
 
         System.out.println(getBestAverageGradeV3(input1)); // Expected output: 87
         System.out.println(getBestAverageGradeV3(input2)); // Expected output: 0
+    }
+
+    private static class Score {
+        int total = 0;
+        int count = 0;
+
+        void add(int marks) {
+            total += marks;
+            count++;
+        }
+
+        int avg() {
+            return total / count;
+        }
     }
 }

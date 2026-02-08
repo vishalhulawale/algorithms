@@ -17,8 +17,8 @@ public class MissingCharactersFromPanagram {
 
     // Dummy method without logic
     public static String findMissingCharacters(String input) {
-        if(input == null || input.isEmpty()){
-            return  "abcdefghijklmnopqrstuvwxyz";
+        if (input == null || input.isEmpty()) {
+            return "abcdefghijklmnopqrstuvwxyz";
         }
 
         boolean[] present = new boolean[26];

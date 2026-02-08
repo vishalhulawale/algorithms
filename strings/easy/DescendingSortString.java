@@ -12,8 +12,6 @@ package strings.easy;
 // Input: "apple"
 // Output: "pplea"
 
-import java.util.Arrays;
-
 public class DescendingSortString {
 
     public static String sortStringDescending(String input) {
@@ -21,7 +19,7 @@ public class DescendingSortString {
             return input;
 
         int[] count = new int[26];
- 
+
         for (int i = 0; i < input.length(); i++) {
             char curr = input.charAt(i);
             int index = curr - 'a';
