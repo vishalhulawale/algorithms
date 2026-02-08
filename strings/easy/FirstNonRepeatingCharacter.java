@@ -57,7 +57,7 @@ public class FirstNonRepeatingCharacter {
         return '_'; // Placeholder return value
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] ignoredArgs) {
         String input1 = "racecars";
         String input2 = "aabdcce";
         String input3 = "aabbcc";

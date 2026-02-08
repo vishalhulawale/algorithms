@@ -58,7 +58,7 @@ public class SmallestAndLargestWord {
         };
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] ignoredArgs) {
         String sentence1 = "This is a test string";
         String[] result1 = findSmallestAndLargestWord(sentence1);
         System.out.println("Minimum length word: \"" + result1[0] + "\", Maximum length word: \"" + result1[1] + "\"");

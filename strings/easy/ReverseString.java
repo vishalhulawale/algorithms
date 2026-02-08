@@ -35,7 +35,7 @@ public class ReverseString {
         return result.toString();
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] ignoredArgs) {
         String input1 = "hello";
         String input2 = "abcd";
         String input3 = "";

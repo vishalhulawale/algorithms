@@ -40,7 +40,7 @@ public class DescendingSortString {
         return result.toString();
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] ignoredArgs) {
         String input1 = "mupursingh";
         String input2 = "apple";
 

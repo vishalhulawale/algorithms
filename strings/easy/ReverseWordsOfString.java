@@ -63,7 +63,7 @@ public class ReverseWordsOfString {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] ignoredArgs) {
         String sentence1 = "I AM A TESTER";
         String sentence2 = "Hello World";
 

@@ -44,7 +44,7 @@ public class MissingCharactersFromPanagram {
         return str.toString();
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] ignoredArgs) {
         String input1 = "The quick brown fox jumps over the lazy dog";
         String input2 = "Hello World";
 

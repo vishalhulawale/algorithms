@@ -42,7 +42,7 @@ public class DelimiterSplitter {
         return result;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] ignoredArgs) {
         String str1 = "one,two,three,four";
         char delimiter1 = ',';
         List<String> result1 = splitStringByDelimiter(str1, delimiter1);

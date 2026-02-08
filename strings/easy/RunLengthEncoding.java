@@ -44,7 +44,7 @@ public class RunLengthEncoding {
         return result.toString();
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] ignoredArgs) {
         String input1 = "aabbb";
         System.out.println(encode(input1)); // Expected output: "a2b3"
 

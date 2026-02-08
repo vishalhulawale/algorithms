@@ -42,7 +42,7 @@ public class SmallestNumberInRotatedArray {
         return input[left];
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] ignoredArgs) {
         int[] input1 = {3, 4, 5, 6, 1, 2};
         int[] input2 = {2, 1};
         int[] input3 = {1};

@@ -39,7 +39,7 @@ public class SentenceToCamelCase {
         return result.toString();
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] ignoredArgs) {
         String input1 = "this is a test string";
         System.out.println(convertToCamelCase(input1)); // Expected output: "ThisIsATestString"
 

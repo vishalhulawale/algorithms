@@ -82,7 +82,7 @@ public class BestAverageGradeWithFloor {
         return bestAverage;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] ignoredArgs) {
         String[][] input1 = {{"Bobby", "87"}, {"Charles", "100"}, {"Eric", "64"}, {"Charles", "22"}};
         String[][] input2 = {};
 

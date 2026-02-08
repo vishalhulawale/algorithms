@@ -26,7 +26,7 @@ public class LastIndexOfCharacter {
         return -1;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] ignoredArgs) {
         String str1 = "hello world";
         char x1 = 'o';
         System.out.println(findLastIndexOfCharacter(str1, x1)); // Expected output: 7
