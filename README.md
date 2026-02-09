@@ -23,7 +23,7 @@
 | [Dynamic Programming](#dynamic-programming)      |   4      |   1      |   2    |  1   |
 | [Linked Lists](#linked-lists)                    |   3 [✅] | 1 [✅]  | 2 [✅]  |  0   |
 | [Trees (BST)](#trees-bst)                        |   2      |   2      |   0    |  0   |
-| [Stacks & Queues](#stacks--queues)               |   3      |   1 [✅] |   2    |  0   |
+| [Stacks & Queues](#stacks--queues)               |   3 [✅]      |   1 [✅] |   2 [✅]    |  0   |
 | [Graphs](#graphs)                                |   2      |   0      |   1    |  1   |
 | [Hashing](#hashing)                              |   4      |   2      |   2    |  0   |
 | [Design / Miscellaneous](#design--miscellaneous) |   3      |   1      |   2    |  0   |
@@ -1273,7 +1273,7 @@ Output: peek returns 5, dequeue returns 5
 
 ---
 
-## 55: Convert Infix to Prefix Notation
+## [✅] 55: Convert Infix to Prefix Notation
 
 **Difficulty:** Medium
 
@@ -1294,7 +1294,7 @@ Output: "* + A B - C D"
 
 ---
 
-## 56: Magic Potion (Stack-Based Simulation)
+## [✅] 56: Magic Potion (Stack-Based Simulation)
 
 **Difficulty:** Medium
 
