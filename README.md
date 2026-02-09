@@ -1072,7 +1072,7 @@ Easy: 1 | Medium: 2 | Hard: 0
 
 ---
 
-## 51: Detect Loop in a Linked List
+## [✅] 51: Detect Loop in a Linked List
 
 **Difficulty:** Easy
 
@@ -1091,7 +1091,7 @@ Output: false
 
 ---
 
-## 52: Count Length of Cycle in a Linked List
+## [✅] 52: Count Length of Cycle in a Linked List
 
 **Difficulty:** Medium
 
@@ -1110,7 +1110,7 @@ Output: 0
 
 ---
 
-## 53: Reverse a Doubly Linked List Using Recursion
+## [✅] 53: Reverse a Doubly Linked List Using Recursion
 
 **Difficulty:** Medium
 
