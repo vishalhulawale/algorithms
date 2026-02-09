@@ -27,9 +27,9 @@ public class AddTwoFractions {
         nom /= gcd;
         deno /= gcd;
 
-        if (deno<0){
-            deno=-deno;
-            nom=-nom;
+        if (deno < 0) {
+            deno = -deno;
+            nom = -nom;
         }
 
         return new int[]{nom, deno};

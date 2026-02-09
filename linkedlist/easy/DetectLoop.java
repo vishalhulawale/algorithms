@@ -16,23 +16,6 @@ import linkedlist.common.SinglyNode;
 
 public class DetectLoop {
 
-    public boolean hasCycle(SinglyNode head) {
-        if (head == null) return false;
-
-        SinglyNode slow = head;
-        SinglyNode fast = head;
-
-        while (fast != null && fast.next != null) {
-            slow = slow.next;
-            fast = fast.next.next;
-
-            if (slow == fast)
-                return true;
-        }
-
-        return false;
-    }
-
     public static void main(String[] args) {
         DetectLoop solution = new DetectLoop();
 
@@ -55,6 +38,23 @@ public class DetectLoop {
         nodeB.next = nodeC;
         nodeC.next = null; // No cycle
         System.out.println(solution.hasCycle(nodeA)); // Expected output: false
+    }
+
+    public boolean hasCycle(SinglyNode head) {
+        if (head == null) return false;
+
+        SinglyNode slow = head;
+        SinglyNode fast = head;
+
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+
+            if (slow == fast)
+                return true;
+        }
+
+        return false;
     }
 
 }

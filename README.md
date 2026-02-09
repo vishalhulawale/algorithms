@@ -6,28 +6,28 @@
 
 - **Total Questions Count:** 65
 - **Difficulty Wise Count:**
-  - Easy: 33
-  - Medium: 27
-  - Hard: 5
+    - Easy: 33
+    - Medium: 27
+    - Hard: 5
 
 ---
 
 ### Topic Summary Table
 
-| Topic                    | Total | Easy | Medium | Hard |
-|--------------------------|:-----:|:----:|:------:|:----:|
-| [Strings](#strings)                  |  14   |  10 [✅]  |   4    |  0   |
-| [Arrays](#arrays)                   |  13   |   5 [✅]  |   7    |  1   |
-| [Math / Number Theory](#math--number-theory)     |   9   |   6 [✅]  |   2    |  1   |
-| [Sorting & Searching](#sorting--searching)      |   6   |   2 [✅]  |   3    |  1   |
-| [Dynamic Programming](#dynamic-programming)      |   4   |   1  |   2    |  1   |
-| [Linked Lists](#linked-lists)             |   3   |   1  |   2    |  0   |
-| [Trees (BST)](#trees-bst)              |   2   |   2  |   0    |  0   |
-| [Stacks & Queues](#stacks--queues)          |   3   |   1  |   2    |  0   |
-| [Graphs](#graphs)                   |   2   |   0  |   1    |  1   |
-| [Hashing](#hashing)                  |   4   |   2  |   2    |  0   |
-| [Design / Miscellaneous](#design--miscellaneous)   |   3   |   1  |   2    |  0   |
-| [Simulation](#simulation)               |   2   |   1  |   1    |  0   |
+| Topic                                            | Total    |  Easy   | Medium | Hard |
+|--------------------------------------------------|:--------:|:-------:|:------:|:----:|
+| [Strings](#strings)                              |  14      | 10 [✅] |   4    |  0   |
+| [Arrays](#arrays)                                |  13      | 5 [✅]  |   7    |  1   |
+| [Math / Number Theory](#math--number-theory)     |   9      | 6 [✅]  |   2    |  1   |
+| [Sorting & Searching](#sorting--searching)       |   6      | 2 [✅]  |   3    |  1   |
+| [Dynamic Programming](#dynamic-programming)      |   4      |   1      |   2    |  1   |
+| [Linked Lists](#linked-lists)                    |   3 [✅] | 1 [✅]  | 2 [✅]  |  0   |
+| [Trees (BST)](#trees-bst)                        |   2      |   2      |   0    |  0   |
+| [Stacks & Queues](#stacks--queues)               |   3      |   1 [✅] |   2    |  0   |
+| [Graphs](#graphs)                                |   2      |   0      |   1    |  1   |
+| [Hashing](#hashing)                              |   4      |   2      |   2    |  0   |
+| [Design / Miscellaneous](#design--miscellaneous) |   3      |   1      |   2    |  0   |
+| [Simulation](#simulation)                        |   2      |   1      |   1    |  0   |
 
 ---
 
@@ -37,6 +37,7 @@
 Easy: 10 | Medium: 4 | Hard: 0
 
 **Key Patterns Tested:**
+
 - Character frequency counting
 - Sliding window
 - Two-pointer manipulation
@@ -49,7 +50,9 @@ Easy: 10 | Medium: 4 | Hard: 0
 **Difficulty:** Easy
 
 **Problem Statement:**
-Given a string of lowercase English characters, find and return the first character that does not repeat anywhere in the string. Traverse the string from left to right and identify the character whose frequency is exactly one and whose first occurrence comes earliest. If every character repeats, return an appropriate indicator (e.g., `'_'` or `null`).
+Given a string of lowercase English characters, find and return the first character that does not repeat anywhere in the
+string. Traverse the string from left to right and identify the character whose frequency is exactly one and whose first
+occurrence comes earliest. If every character repeats, return an appropriate indicator (e.g., `'_'` or `null`).
 
 **Examples:**
 
@@ -68,7 +71,8 @@ Output: "d"
 **Difficulty:** Easy
 
 **Problem Statement:**
-Given a string `str` and a character `x`, write a function that returns the last (rightmost) index at which `x` appears in `str`. If the character is not found, return `-1`. The search should consider the entire string.
+Given a string `str` and a character `x`, write a function that returns the last (rightmost) index at which `x` appears
+in `str`. If the character is not found, return `-1`. The search should consider the entire string.
 
 **Examples:**
 
@@ -87,7 +91,9 @@ Output: 10
 **Difficulty:** Easy
 
 **Problem Statement:**
-Given a sentence consisting of words separated by spaces, find and return the smallest (shortest) and the largest (longest) word in the sentence. If there are multiple words with the same minimum or maximum length, return the first one encountered.
+Given a sentence consisting of words separated by spaces, find and return the smallest (shortest) and the largest (
+longest) word in the sentence. If there are multiple words with the same minimum or maximum length, return the first one
+encountered.
 
 **Examples:**
 
@@ -106,7 +112,9 @@ Output: Minimum length word: "I", Maximum length word: "challenges"
 **Difficulty:** Easy
 
 **Problem Statement:**
-A pangram is a sentence that contains every letter of the English alphabet at least once. Given a string, determine which letters of the English alphabet are missing from the string. Return all missing letters in alphabetical order. The check should be case-insensitive.
+A pangram is a sentence that contains every letter of the English alphabet at least once. Given a string, determine
+which letters of the English alphabet are missing from the string. Return all missing letters in alphabetical order. The
+check should be case-insensitive.
 
 **Examples:**
 
@@ -125,7 +133,9 @@ Output: "abcfgijkmnpqstuvxyz"
 **Difficulty:** Easy
 
 **Problem Statement:**
-Given a sentence as a string, reverse the order of words in it. Words are separated by single spaces. The individual characters within each word should remain unchanged — only the word positions should be swapped so the last word comes first, the second-to-last comes second, and so on.
+Given a sentence as a string, reverse the order of words in it. Words are separated by single spaces. The individual
+characters within each word should remain unchanged — only the word positions should be swapped so the last word comes
+first, the second-to-last comes second, and so on.
 
 **Examples:**
 
@@ -144,7 +154,9 @@ Output: "World Hello"
 **Difficulty:** Easy
 
 **Problem Statement:**
-Implement a run-length encoding function. Given a string of characters, compress it by replacing consecutive identical characters with the character followed by the count of its consecutive occurrences. This is a basic form of lossless data compression.
+Implement a run-length encoding function. Given a string of characters, compress it by replacing consecutive identical
+characters with the character followed by the count of its consecutive occurrences. This is a basic form of lossless
+data compression.
 
 **Examples:**
 
@@ -163,7 +175,9 @@ Output: "S5T2P2Q1"
 **Difficulty:** Easy
 
 **Problem Statement:**
-Given a string consisting of lowercase English characters, sort all characters of the string in descending (reverse alphabetical) order. Return the resulting string. Characters that appear more than once should all appear in their correct sorted positions.
+Given a string consisting of lowercase English characters, sort all characters of the string in descending (reverse
+alphabetical) order. Return the resulting string. Characters that appear more than once should all appear in their
+correct sorted positions.
 
 **Examples:**
 
@@ -182,7 +196,9 @@ Output: "pplea"
 **Difficulty:** Easy
 
 **Problem Statement:**
-Given a string and a delimiter character, split the string at each occurrence of the delimiter and return the resulting list of substrings. Consecutive delimiters may produce empty strings in the result. This tests basic string parsing without using built-in split methods.
+Given a string and a delimiter character, split the string at each occurrence of the delimiter and return the resulting
+list of substrings. Consecutive delimiters may produce empty strings in the result. This tests basic string parsing
+without using built-in split methods.
 
 **Examples:**
 
@@ -201,7 +217,9 @@ Output: ["hello", "world", "foo"]
 **Difficulty:** Easy
 
 **Problem Statement:**
-Given a sentence of words separated by spaces, remove all spaces and convert the sentence to CamelCase format, where every word begins with an uppercase letter and the remaining characters are lowercase. This is commonly used in programming for naming conventions.
+Given a sentence of words separated by spaces, remove all spaces and convert the sentence to CamelCase format, where
+every word begins with an uppercase letter and the remaining characters are lowercase. This is commonly used in
+programming for naming conventions.
 
 **Examples:**
 
@@ -220,7 +238,9 @@ Output: "HelloWorldFromJava"
 **Difficulty:** Easy
 
 **Problem Statement:**
-You are given a program that is intended to reverse a string but contains one or more bugs. Your task is to identify the bugs, fix them, and ensure the corrected program passes all test cases. The function should take a string as input and return its reverse. Consider edge cases such as empty strings, single characters, and strings with special characters.
+You are given a program that is intended to reverse a string but contains one or more bugs. Your task is to identify the
+bugs, fix them, and ensure the corrected program passes all test cases. The function should take a string as input and
+return its reverse. Consider edge cases such as empty strings, single characters, and strings with special characters.
 
 **Examples:**
 
@@ -239,7 +259,9 @@ Output: "dcba"
 **Difficulty:** Medium
 
 **Problem Statement:**
-Given a string, find the longest contiguous substring that contains all unique (non-repeating) characters. If multiple substrings of the same maximum length exist, return the first one encountered. This is a classic sliding window problem that tests your ability to manage a dynamic window of characters efficiently.
+Given a string, find the longest contiguous substring that contains all unique (non-repeating) characters. If multiple
+substrings of the same maximum length exist, return the first one encountered. This is a classic sliding window problem
+that tests your ability to manage a dynamic window of characters efficiently.
 
 **Examples:**
 
@@ -258,7 +280,9 @@ Output: "abc"
 **Difficulty:** Medium
 
 **Problem Statement:**
-Given a string, find the longest contiguous substring that reads the same forwards and backwards. If there are multiple palindromic substrings of the same maximum length, return any one of them. Consider both odd-length and even-length palindromes. The solution should efficiently expand around potential centers or use dynamic programming.
+Given a string, find the longest contiguous substring that reads the same forwards and backwards. If there are multiple
+palindromic substrings of the same maximum length, return any one of them. Consider both odd-length and even-length
+palindromes. The solution should efficiently expand around potential centers or use dynamic programming.
 
 **Examples:**
 
@@ -277,7 +301,8 @@ Output: "bb"
 **Difficulty:** Medium
 
 **Problem Statement:**
-Given a string of characters, find the longest contiguous substring that consists of a single repeated character. Return the starting index and the length of this substring. If there are ties, return the one that appears first.
+Given a string of characters, find the longest contiguous substring that consists of a single repeated character. Return
+the starting index and the length of this substring. If there are ties, return the one that appears first.
 
 **Examples:**
 
@@ -296,7 +321,9 @@ Output: (2, 4)  — substring "bbbb" starts at index 2, length 4
 **Difficulty:** Medium
 
 **Problem Statement:**
-Given a sentence as a string, reverse each individual word in place while keeping the word order the same. Words are separated by spaces. For example, if a word is "hello", it becomes "olleh", but its position relative to other words remains unchanged.
+Given a sentence as a string, reverse each individual word in place while keeping the word order the same. Words are
+separated by spaces. For example, if a word is "hello", it becomes "olleh", but its position relative to other words
+remains unchanged.
 
 **Examples:**
 
@@ -316,6 +343,7 @@ Output: "I evol gnimmargorp"
 Easy: 5 | Medium: 7 | Hard: 1
 
 **Key Patterns Tested:**
+
 - Two-pointer technique
 - Prefix sums / subarray sums
 - Sorting-based logic
@@ -328,7 +356,9 @@ Easy: 5 | Medium: 7 | Hard: 1
 **Difficulty:** Easy
 
 **Problem Statement:**
-Given two integer arrays, compute and return their dot product. The dot product is defined as the sum of element-wise products: `result = array1[0]*array2[0] + array1[1]*array2[1] + ...`. If the two arrays have different lengths, compute the dot product over the length of the shorter array, ignoring extra elements in the longer one.
+Given two integer arrays, compute and return their dot product. The dot product is defined as the sum of element-wise
+products: `result = array1[0]*array2[0] + array1[1]*array2[1] + ...`. If the two arrays have different lengths, compute
+the dot product over the length of the shorter array, ignoring extra elements in the longer one.
 
 **Examples:**
 
@@ -347,7 +377,9 @@ Output: 17  (1*5 + 2*6)
 **Difficulty:** Easy
 
 **Problem Statement:**
-Given an unsorted array of `n` integers, compute both the mean (arithmetic average) and the median. The mean is the sum of all elements divided by the count. The median is the middle element when sorted; if the array has even length, return the average of the two middle elements.
+Given an unsorted array of `n` integers, compute both the mean (arithmetic average) and the median. The mean is the sum
+of all elements divided by the count. The median is the middle element when sorted; if the array has even length, return
+the average of the two middle elements.
 
 **Examples:**
 
@@ -366,7 +398,9 @@ Output: Mean = 5.75, Median = 5.5
 **Difficulty:** Easy
 
 **Problem Statement:**
-Given an array of integers and a target sum, find the total number of pairs of elements whose sum equals the target. Each element may be used only once per pair. Two indices `(i, j)` where `i < j` form a valid pair if `arr[i] + arr[j] == target`.
+Given an array of integers and a target sum, find the total number of pairs of elements whose sum equals the target.
+Each element may be used only once per pair. Two indices `(i, j)` where `i < j` form a valid pair if
+`arr[i] + arr[j] == target`.
 
 **Examples:**
 
@@ -385,7 +419,9 @@ Output: 6
 **Difficulty:** Easy
 
 **Problem Statement:**
-Given an array of integers, find the sum of the product of every unique pair `(arr[i], arr[j])` where `i < j`. You should consider all combinations of two distinct indices and sum up their products. An efficient O(n) mathematical approach exists using algebraic identities.
+Given an array of integers, find the sum of the product of every unique pair `(arr[i], arr[j])` where `i < j`. You
+should consider all combinations of two distinct indices and sum up their products. An efficient O(n) mathematical
+approach exists using algebraic identities.
 
 **Examples:**
 
@@ -404,7 +440,9 @@ Output: 31  — (2*3) + (2*5) + (3*5) = 6 + 10 + 15 = 31
 **Difficulty:** Easy
 
 **Problem Statement:**
-Given an array of single-digit integers, determine whether it is possible to concatenate all the digits (in any order) to form a number that is divisible by 3. A number is divisible by 3 if and only if the sum of its digits is divisible by 3. You must use all digits in the array.
+Given an array of single-digit integers, determine whether it is possible to concatenate all the digits (in any order)
+to form a number that is divisible by 3. A number is divisible by 3 if and only if the sum of its digits is divisible by
+3. You must use all digits in the array.
 
 **Examples:**
 
@@ -423,7 +461,9 @@ Output: false  (sum = 7, not divisible by 3)
 **Difficulty:** Medium
 
 **Problem Statement:**
-Given an unsorted array of integers with at least two distinct elements, find and return the second smallest element. The second smallest is the smallest value strictly greater than the minimum. You must handle duplicates correctly — for example, if the minimum appears multiple times, the second smallest is still the next distinct value.
+Given an unsorted array of integers with at least two distinct elements, find and return the second smallest element.
+The second smallest is the smallest value strictly greater than the minimum. You must handle duplicates correctly — for
+example, if the minimum appears multiple times, the second smallest is still the next distinct value.
 
 **Examples:**
 
@@ -442,7 +482,9 @@ Output: 20
 **Difficulty:** Medium
 
 **Problem Statement:**
-Given an unsorted array of integers, find and return the second largest element. The second largest is the largest value strictly less than the maximum. Handle edge cases where the array may have duplicates. Aim for a single-pass O(n) solution without sorting.
+Given an unsorted array of integers, find and return the second largest element. The second largest is the largest value
+strictly less than the maximum. Handle edge cases where the array may have duplicates. Aim for a single-pass O(n)
+solution without sorting.
 
 **Examples:**
 
@@ -461,7 +503,9 @@ Output: -1  (no second largest exists)
 **Difficulty:** Medium
 
 **Problem Statement:**
-Given an `m x n` matrix, return all elements of the matrix in spiral order. Start from the top-left corner, move right across the top row, then down the last column, then left across the bottom row, then up the first column, and repeat, spiraling inward until all elements have been visited.
+Given an `m x n` matrix, return all elements of the matrix in spiral order. Start from the top-left corner, move right
+across the top row, then down the last column, then left across the bottom row, then up the first column, and repeat,
+spiraling inward until all elements have been visited.
 
 **Examples:**
 
@@ -480,7 +524,9 @@ Output: [1, 2, 3, 4, 8, 12, 11, 10, 9, 5, 6, 7]
 **Difficulty:** Medium
 
 **Problem Statement:**
-Given an `m x n` matrix, print all elements in reverse spiral order using recursion. Reverse spiral order means starting from the innermost element and spiraling outward, which is the reverse of the standard spiral traversal. You must implement this recursively.
+Given an `m x n` matrix, print all elements in reverse spiral order using recursion. Reverse spiral order means starting
+from the innermost element and spiraling outward, which is the reverse of the standard spiral traversal. You must
+implement this recursively.
 
 **Examples:**
 
@@ -499,7 +545,9 @@ Output: [4, 3, 1, 2]  (reverse of spiral [1,2,4,3])
 **Difficulty:** Medium
 
 **Problem Statement:**
-Given an array of positive integers and a target value, find the length of the smallest contiguous subarray whose sum is greater than or equal to the target. If no such subarray exists, return 0. This is a classic sliding window problem requiring an efficient O(n) solution.
+Given an array of positive integers and a target value, find the length of the smallest contiguous subarray whose sum is
+greater than or equal to the target. If no such subarray exists, return 0. This is a classic sliding window problem
+requiring an efficient O(n) solution.
 
 **Examples:**
 
@@ -518,7 +566,9 @@ Output: 0  — no subarray has sum ≥ 11
 **Difficulty:** Medium
 
 **Problem Statement:**
-Given an array of integers (which may include negative numbers) and an integer `k`, find the length of the longest contiguous subarray whose elements sum to exactly `k`. Use a prefix sum approach with a hash map for an efficient O(n) solution.
+Given an array of integers (which may include negative numbers) and an integer `k`, find the length of the longest
+contiguous subarray whose elements sum to exactly `k`. Use a prefix sum approach with a hash map for an efficient O(n)
+solution.
 
 **Examples:**
 
@@ -537,7 +587,9 @@ Output: 5
 **Difficulty:** Hard
 
 **Problem Statement:**
-Given two sorted arrays of integers, find the median of the combined sorted array. The overall run-time complexity should be O(log(min(m, n))) where m and n are the sizes of the two arrays. The median is the middle value in the merged sorted array; if the total number of elements is even, return the average of the two middle values.
+Given two sorted arrays of integers, find the median of the combined sorted array. The overall run-time complexity
+should be O(log(min(m, n))) where m and n are the sizes of the two arrays. The median is the middle value in the merged
+sorted array; if the total number of elements is even, return the average of the two middle values.
 
 **Examples:**
 
@@ -556,7 +608,9 @@ Output: 2.5
 **Difficulty:** Medium
 
 **Problem Statement:**
-Given an array of integers and a tuple size `k`, generate all unique contiguous tuples (subsequences of length `k`) from the array. Return the list of unique tuples without any duplicates. This tests your ability to use sliding windows and hash-based deduplication.
+Given an array of integers and a tuple size `k`, generate all unique contiguous tuples (subsequences of length `k`) from
+the array. Return the list of unique tuples without any duplicates. This tests your ability to use sliding windows and
+hash-based deduplication.
 
 **Examples:**
 
@@ -576,6 +630,7 @@ Output: [(1,1)]
 Easy: 6 | Medium: 2 | Hard: 1
 
 **Key Patterns Tested:**
+
 - Modular arithmetic
 - Factorization
 - Exponentiation
@@ -588,7 +643,9 @@ Easy: 6 | Medium: 2 | Hard: 1
 **Difficulty:** Easy
 
 **Problem Statement:**
-An Armstrong number (also known as a narcissistic number) of `n` digits is a number where the sum of each digit raised to the power of `n` equals the number itself. For a 3-digit number, it means the sum of cubes of its digits equals the number. Given an integer, determine if it is an Armstrong number.
+An Armstrong number (also known as a narcissistic number) of `n` digits is a number where the sum of each digit raised
+to the power of `n` equals the number itself. For a 3-digit number, it means the sum of cubes of its digits equals the
+number. Given an integer, determine if it is an Armstrong number.
 
 **Examples:**
 
@@ -607,7 +664,9 @@ Output: false  (1³ + 2³ + 3³ = 1 + 8 + 27 = 36 ≠ 123)
 **Difficulty:** Easy
 
 **Problem Statement:**
-Given two positive integers `x` and `y`, determine whether `x` is a power of `y`. That is, check if there exists a non-negative integer `k` such that `y^k == x`. Handle edge cases where `y` is 1 (only `x = 1` is valid) and where `x` is 0.
+Given two positive integers `x` and `y`, determine whether `x` is a power of `y`. That is, check if there exists a
+non-negative integer `k` such that `y^k == x`. Handle edge cases where `y` is 1 (only `x = 1` is valid) and where `x` is
+0.
 
 **Examples:**
 
@@ -626,7 +685,9 @@ Output: false
 **Difficulty:** Easy
 
 **Problem Statement:**
-Given a positive integer `x`, determine whether it is a power of 10. A number is a power of 10 if it can be expressed as `10^k` for some non-negative integer `k` (i.e., 1, 10, 100, 1000, ...). Implement this without using logarithmic functions for a clean iterative solution.
+Given a positive integer `x`, determine whether it is a power of 10. A number is a power of 10 if it can be expressed as
+`10^k` for some non-negative integer `k` (i.e., 1, 10, 100, 1000, ...). Implement this without using logarithmic
+functions for a clean iterative solution.
 
 **Examples:**
 
@@ -645,7 +706,9 @@ Output: false
 **Difficulty:** Easy
 
 **Problem Statement:**
-The Fibonacci series is defined as: `F(0) = 0, F(1) = 1, F(n) = F(n-1) + F(n-2)` for `n ≥ 2`. Given a non-negative integer `n`, return the nth Fibonacci number. Implement both an iterative and a recursive approach. Discuss the time and space complexity trade-offs of each.
+The Fibonacci series is defined as: `F(0) = 0, F(1) = 1, F(n) = F(n-1) + F(n-2)` for `n ≥ 2`. Given a non-negative
+integer `n`, return the nth Fibonacci number. Implement both an iterative and a recursive approach. Discuss the time and
+space complexity trade-offs of each.
 
 **Examples:**
 
@@ -664,7 +727,9 @@ Output: 55
 **Difficulty:** Easy
 
 **Problem Statement:**
-Given two fractions represented as pairs of integers `(numerator, denominator)`, compute their sum and return the result as a simplified fraction. The result should be reduced to its lowest terms using the Greatest Common Divisor (GCD). Handle negative fractions and ensure the denominator is always positive.
+Given two fractions represented as pairs of integers `(numerator, denominator)`, compute their sum and return the result
+as a simplified fraction. The result should be reduced to its lowest terms using the Greatest Common Divisor (GCD).
+Handle negative fractions and ensure the denominator is always positive.
 
 **Examples:**
 
@@ -683,7 +748,9 @@ Output: (5, 6)
 **Difficulty:** Easy
 
 **Problem Statement:**
-Given a positive integer `x`, find all prime factors of `x` and return them as an array. The product of all elements in the returned array should equal `x`. Each prime factor should appear in the result as many times as it divides `x`. Return the factors in ascending order.
+Given a positive integer `x`, find all prime factors of `x` and return them as an array. The product of all elements in
+the returned array should equal `x`. Each prime factor should appear in the result as many times as it divides `x`.
+Return the factors in ascending order.
 
 **Examples:**
 
@@ -702,7 +769,9 @@ Output: [2, 2, 5, 5]
 **Difficulty:** Medium
 
 **Problem Statement:**
-Implement a function to compute `base` raised to the power of `exponent`. The exponent can be positive, negative, or zero. For negative exponents, return the reciprocal. Implement an efficient solution using fast exponentiation (exponentiation by squaring) for O(log n) time complexity. Handle edge cases like `0^0` and negative bases.
+Implement a function to compute `base` raised to the power of `exponent`. The exponent can be positive, negative, or
+zero. For negative exponents, return the reciprocal. Implement an efficient solution using fast exponentiation (
+exponentiation by squaring) for O(log n) time complexity. Handle edge cases like `0^0` and negative bases.
 
 **Examples:**
 
@@ -721,7 +790,9 @@ Output: 0.25
 **Difficulty:** Medium
 
 **Problem Statement:**
-Given a range `[low, high]`, count how many Fibonacci numbers fall within this range (inclusive). The solution should run in O(log n) time and O(1) space by generating Fibonacci numbers iteratively and counting those within range, stopping once the Fibonacci number exceeds `high`.
+Given a range `[low, high]`, count how many Fibonacci numbers fall within this range (inclusive). The solution should
+run in O(log n) time and O(1) space by generating Fibonacci numbers iteratively and counting those within range,
+stopping once the Fibonacci number exceeds `high`.
 
 **Examples:**
 
@@ -740,7 +811,10 @@ Output: 6  (1, 1, 2, 3, 5, 8)
 **Difficulty:** Hard
 
 **Problem Statement:**
-Given an array of positive integers, find all pairs `(a, b)` where `a < b` such that `a^b == b^a`. This is a mathematical problem that requires careful handling. Note that the equation `a^b = b^a` holds for certain special cases (e.g., `(2, 4)`) and can be analyzed by comparing `a^(1/a)` values. Implement an efficient solution that avoids brute-force exponentiation for large numbers.
+Given an array of positive integers, find all pairs `(a, b)` where `a < b` such that `a^b == b^a`. This is a
+mathematical problem that requires careful handling. Note that the equation `a^b = b^a` holds for certain special
+cases (e.g., `(2, 4)`) and can be analyzed by comparing `a^(1/a)` values. Implement an efficient solution that avoids
+brute-force exponentiation for large numbers.
 
 **Examples:**
 
@@ -760,6 +834,7 @@ Output: [(1, 1 is trivial — excluded), (2, 4)]
 Easy: 2 | Medium: 3 | Hard: 1
 
 **Key Patterns Tested:**
+
 - Binary search on rotated arrays
 - Custom comparator sorting
 - Sorting with specific constraints
@@ -771,7 +846,9 @@ Easy: 2 | Medium: 3 | Hard: 1
 **Difficulty:** Easy
 
 **Problem Statement:**
-Given a sorted array that has been rotated an unknown number of times, find the minimum element in the array. A rotated sorted array is one where a sorted array is split at some pivot and the two halves are swapped. Use binary search for an O(log n) solution.
+Given a sorted array that has been rotated an unknown number of times, find the minimum element in the array. A rotated
+sorted array is one where a sorted array is split at some pivot and the two halves are swapped. Use binary search for an
+O(log n) solution.
 
 **Examples:**
 
@@ -790,7 +867,9 @@ Output: 1
 **Difficulty:** Easy
 
 **Problem Statement:**
-Given a sorted array that has been rotated, find the second smallest element. First, locate the minimum element using binary search on the rotated array, then determine the second smallest by comparing adjacent candidates. The array contains distinct elements.
+Given a sorted array that has been rotated, find the second smallest element. First, locate the minimum element using
+binary search on the rotated array, then determine the second smallest by comparing adjacent candidates. The array
+contains distinct elements.
 
 **Examples:**
 
@@ -809,7 +888,9 @@ Output: 2
 **Difficulty:** Medium
 
 **Problem Statement:**
-Given a list of non-negative integers, arrange them such that they form the largest possible number and return it as a string. This requires a custom comparator: for two numbers `a` and `b`, compare the concatenations `ab` vs `ba` to decide ordering. Handle the edge case where all numbers are zero.
+Given a list of non-negative integers, arrange them such that they form the largest possible number and return it as a
+string. This requires a custom comparator: for two numbers `a` and `b`, compare the concatenations `ab` vs `ba` to
+decide ordering. Handle the edge case where all numbers are zero.
 
 **Examples:**
 
@@ -828,7 +909,9 @@ Output: "210"
 **Difficulty:** Medium
 
 **Problem Statement:**
-An array `A[]` of size `n` containing a permutation of `1` to `n` is said to be stack-sortable if it can be sorted into array `B[]` in ascending order using an auxiliary stack `S`. Elements are pushed from `A` to `S` and popped from `S` to `B`. Determine whether the given permutation is stack-sortable.
+An array `A[]` of size `n` containing a permutation of `1` to `n` is said to be stack-sortable if it can be sorted into
+array `B[]` in ascending order using an auxiliary stack `S`. Elements are pushed from `A` to `S` and popped from `S` to
+`B`. Determine whether the given permutation is stack-sortable.
 
 **Examples:**
 
@@ -850,7 +933,8 @@ Output: false
 **Difficulty:** Medium
 
 **Problem Statement:**
-Given a non-negative integer `x`, compute and return the integer part of the square root of `x` without using any built-in exponent or square root functions. Use binary search or Newton's method for an efficient O(log n) solution.
+Given a non-negative integer `x`, compute and return the integer part of the square root of `x` without using any
+built-in exponent or square root functions. Use binary search or Newton's method for an efficient O(log n) solution.
 
 **Examples:**
 
@@ -869,7 +953,9 @@ Output: 2  (since √8 ≈ 2.828, floor is 2)
 **Difficulty:** Hard
 
 **Problem Statement:**
-Pascal's Triangle is a triangular array where each number is the sum of the two numbers directly above it. Given a row number `r` and a column number `c` (both 1-indexed), return the element at that position. The element at row `r`, column `c` is the binomial coefficient `C(r-1, c-1)`. Implement this efficiently without constructing the entire triangle.
+Pascal's Triangle is a triangular array where each number is the sum of the two numbers directly above it. Given a row
+number `r` and a column number `c` (both 1-indexed), return the element at that position. The element at row `r`, column
+`c` is the binomial coefficient `C(r-1, c-1)`. Implement this efficiently without constructing the entire triangle.
 
 **Examples:**
 
@@ -889,6 +975,7 @@ Output: 10  (Row 6: 1, 5, 10, 10, 5, 1)
 Easy: 1 | Medium: 2 | Hard: 1
 
 **Key Patterns Tested:**
+
 - Counting combinations (staircase)
 - Grid-based DP (optimal path)
 - Subproblem decomposition
@@ -900,7 +987,9 @@ Easy: 1 | Medium: 2 | Hard: 1
 **Difficulty:** Easy
 
 **Problem Statement:**
-Given a positive integer `n`, print a staircase of size `n`. The staircase is right-aligned and composed of `#` symbols and spaces. Each row `i` (1-indexed) contains `n - i` spaces followed by `i` `#` characters. This is a basic pattern-printing problem.
+Given a positive integer `n`, print a staircase of size `n`. The staircase is right-aligned and composed of `#` symbols
+and spaces. Each row `i` (1-indexed) contains `n - i` spaces followed by `i` `#` characters. This is a basic
+pattern-printing problem.
 
 **Examples:**
 
@@ -920,7 +1009,9 @@ Output:
 **Difficulty:** Medium
 
 **Problem Statement:**
-A child is climbing a staircase with `n` steps. At each step, the child can take either 1, 2, or 3 steps at a time. Write a function that returns the total number of unique ways the child can reach the top. This is a classic dynamic programming problem where `dp[i] = dp[i-1] + dp[i-2] + dp[i-3]`.
+A child is climbing a staircase with `n` steps. At each step, the child can take either 1, 2, or 3 steps at a time.
+Write a function that returns the total number of unique ways the child can reach the top. This is a classic dynamic
+programming problem where `dp[i] = dp[i-1] + dp[i-2] + dp[i-3]`.
 
 **Examples:**
 
@@ -939,7 +1030,9 @@ Output: 7  (1+1+1+1, 2+1+1, 1+2+1, 1+1+2, 2+2, 3+1, 1+3)
 **Difficulty:** Medium
 
 **Problem Statement:**
-Given an `m x n` grid filled with non-negative integers, find a path from the top-left corner to the bottom-right corner that minimizes the sum of all numbers along the path. You can only move either down or right at any step. Return the minimum path sum. Use dynamic programming where `dp[i][j]` represents the minimum cost to reach cell `(i, j)`.
+Given an `m x n` grid filled with non-negative integers, find a path from the top-left corner to the bottom-right corner
+that minimizes the sum of all numbers along the path. You can only move either down or right at any step. Return the
+minimum path sum. Use dynamic programming where `dp[i][j]` represents the minimum cost to reach cell `(i, j)`.
 
 **Examples:**
 
@@ -958,7 +1051,10 @@ Output: 12  (path: 1→2→3→6)
 **Difficulty:** Hard
 
 **Problem Statement:**
-Given an array of non-negative integers representing an elevation map where the width of each bar is 1, compute how much water can be trapped after raining. For each position, the water trapped is determined by the minimum of the maximum heights to its left and right minus the current height. Implement an efficient O(n) solution using two pointers or precomputed arrays.
+Given an array of non-negative integers representing an elevation map where the width of each bar is 1, compute how much
+water can be trapped after raining. For each position, the water trapped is determined by the minimum of the maximum
+heights to its left and right minus the current height. Implement an efficient O(n) solution using two pointers or
+precomputed arrays.
 
 **Examples:**
 
@@ -978,6 +1074,7 @@ Output: 7
 Easy: 2 | Medium: 2 | Hard: 0
 
 **Key Patterns Tested:**
+
 - Frequency counting
 - Grouping by derived keys
 - Aggregation with hash maps
@@ -989,7 +1086,9 @@ Easy: 2 | Medium: 2 | Hard: 0
 **Difficulty:** Easy
 
 **Problem Statement:**
-Given a list of student name-score pairs (where the same student may appear multiple times with different scores), find the highest average score among all students. For each student, compute their average score across all entries, then return the maximum average (as an integer, floored).
+Given a list of student name-score pairs (where the same student may appear multiple times with different scores), find
+the highest average score among all students. For each student, compute their average score across all entries, then
+return the maximum average (as an integer, floored).
 
 **Examples:**
 
@@ -1008,7 +1107,8 @@ Output: 95
 **Difficulty:** Easy
 
 **Problem Statement:**
-Given a string of words separated by spaces, find the first word that appears more than once. Traverse the words left to right and return the first word that has been seen before. Use a hash set for O(1) lookup per word.
+Given a string of words separated by spaces, find the first word that appears more than once. Traverse the words left to
+right and return the first word that has been seen before. Use a hash set for O(1) lookup per word.
 
 **Examples:**
 
@@ -1027,7 +1127,9 @@ Output: "to"
 **Difficulty:** Medium
 
 **Problem Statement:**
-Given a list of strings, group the anagrams together. Two strings are anagrams if they contain the same characters with the same frequencies. Return a list of groups where each group contains all strings that are anagrams of each other. Use sorted characters or character frequency as a hash key.
+Given a list of strings, group the anagrams together. Two strings are anagrams if they contain the same characters with
+the same frequencies. Return a list of groups where each group contains all strings that are anagrams of each other. Use
+sorted characters or character frequency as a hash key.
 
 **Examples:**
 
@@ -1046,7 +1148,9 @@ Output: [["listen", "silent"], ["hello"]]
 **Difficulty:** Medium
 
 **Problem Statement:**
-Given an array of candidate names where each name represents one vote for that candidate, determine the winner of the election. The winner is the candidate with the most votes. If there is a tie, return the candidate whose name is lexicographically smallest. Use a hash map to count votes efficiently.
+Given an array of candidate names where each name represents one vote for that candidate, determine the winner of the
+election. The winner is the candidate with the most votes. If there is a tie, return the candidate whose name is
+lexicographically smallest. Use a hash map to count votes efficiently.
 
 **Examples:**
 
@@ -1066,6 +1170,7 @@ Output: "Jane"  (tie-breaker: lexicographically smaller)
 Easy: 1 | Medium: 2 | Hard: 0
 
 **Key Patterns Tested:**
+
 - Cycle detection (Floyd's algorithm)
 - Recursive reversal
 - Doubly linked list operations
@@ -1077,7 +1182,9 @@ Easy: 1 | Medium: 2 | Hard: 0
 **Difficulty:** Easy
 
 **Problem Statement:**
-Given the head of a singly linked list, determine whether the linked list contains a cycle (loop). A cycle exists if some node's `next` pointer points back to a previously visited node. Use Floyd's cycle detection algorithm (tortoise and hare) for an O(n) time, O(1) space solution.
+Given the head of a singly linked list, determine whether the linked list contains a cycle (loop). A cycle exists if
+some node's `next` pointer points back to a previously visited node. Use Floyd's cycle detection algorithm (tortoise and
+hare) for an O(n) time, O(1) space solution.
 
 **Examples:**
 
@@ -1096,7 +1203,9 @@ Output: false
 **Difficulty:** Medium
 
 **Problem Statement:**
-Given the head of a linked list that may contain a cycle, determine the length of the cycle if one exists. First, detect the cycle using Floyd's algorithm. Once the slow and fast pointers meet inside the cycle, keep one pointer fixed and advance the other, counting steps until they meet again. Return 0 if no cycle exists.
+Given the head of a linked list that may contain a cycle, determine the length of the cycle if one exists. First, detect
+the cycle using Floyd's algorithm. Once the slow and fast pointers meet inside the cycle, keep one pointer fixed and
+advance the other, counting steps until they meet again. Return 0 if no cycle exists.
 
 **Examples:**
 
@@ -1115,7 +1224,9 @@ Output: 0
 **Difficulty:** Medium
 
 **Problem Statement:**
-Given the head of a doubly linked list, reverse the entire list using recursion. Each node has `data`, `next`, and `prev` pointers. After reversal, the head should point to the original tail, and all `next` and `prev` pointers should be swapped correctly. The function should return the new head of the reversed list.
+Given the head of a doubly linked list, reverse the entire list using recursion. Each node has `data`, `next`, and
+`prev` pointers. After reversal, the head should point to the original tail, and all `next` and `prev` pointers should
+be swapped correctly. The function should return the new head of the reversed list.
 
 **Examples:**
 
@@ -1141,12 +1252,14 @@ Easy: 1 | Medium: 2 | Hard: 0
 
 ---
 
-## 54: Implement Queue Using Stacks
+## [✅] 54: Implement Queue Using Stacks
 
 **Difficulty:** Easy
 
 **Problem Statement:**
-Implement a FIFO (First-In-First-Out) queue using only two LIFO stacks. Support the following operations: `enqueue(x)` to add an element to the back, `dequeue()` to remove and return the front element, `peek()` to view the front element, and `isEmpty()` to check if the queue is empty. Each operation should have amortized O(1) time complexity.
+Implement a FIFO (First-In-First-Out) queue using only two LIFO stacks. Support the following operations: `enqueue(x)`
+to add an element to the back, `dequeue()` to remove and return the front element, `peek()` to view the front element,
+and `isEmpty()` to check if the queue is empty. Each operation should have amortized O(1) time complexity.
 
 **Examples:**
 
@@ -1165,7 +1278,9 @@ Output: peek returns 5, dequeue returns 5
 **Difficulty:** Medium
 
 **Problem Statement:**
-Given a mathematical expression in infix notation (e.g., `A + B * C`), convert it to prefix (Polish) notation. Use the Shunting-yard algorithm adapted for prefix conversion: reverse the infix expression, swap parentheses, apply the standard infix-to-postfix algorithm, then reverse the result. Handle operator precedence and associativity correctly.
+Given a mathematical expression in infix notation (e.g., `A + B * C`), convert it to prefix (Polish) notation. Use the
+Shunting-yard algorithm adapted for prefix conversion: reverse the infix expression, swap parentheses, apply the
+standard infix-to-postfix algorithm, then reverse the result. Handle operator precedence and associativity correctly.
 
 **Examples:**
 
@@ -1184,7 +1299,10 @@ Output: "* + A B - C D"
 **Difficulty:** Medium
 
 **Problem Statement:**
-A wizard is brewing a magic potion by adding ingredients one at a time. If the same ingredient is added consecutively (the top of the current potion stack matches the new ingredient), they cancel each other out and both are removed. Given a sequence of ingredients, determine the final state of the potion after all ingredients have been processed. This is essentially a stack-based adjacent duplicate removal problem.
+A wizard is brewing a magic potion by adding ingredients one at a time. If the same ingredient is added consecutively (
+the top of the current potion stack matches the new ingredient), they cancel each other out and both are removed. Given
+a sequence of ingredients, determine the final state of the potion after all ingredients have been processed. This is
+essentially a stack-based adjacent duplicate removal problem.
 
 **Examples:**
 
@@ -1204,6 +1322,7 @@ Output: []  (all cancel out)
 Easy: 2 | Medium: 0 | Hard: 0
 
 **Key Patterns Tested:**
+
 - BST insertion and search
 - In-order traversal
 
@@ -1215,9 +1334,11 @@ Easy: 2 | Medium: 0 | Hard: 0
 
 **Problem Statement:**
 Implement a Binary Search Tree (BST) with the following operations:
+
 1. **put(value):** Insert a new value into the BST maintaining the BST property (left child < parent < right child).
 2. **contains(value):** Return `true` if the value exists in the BST, `false` otherwise.
-3. **inOrderTraversal():** Return all values in the BST in sorted (ascending) order by performing an in-order traversal (left → root → right).
+3. **inOrderTraversal():** Return all values in the BST in sorted (ascending) order by performing an in-order
+   traversal (left → root → right).
 
 **Examples:**
 
@@ -1236,7 +1357,10 @@ Output: [5, 10, 15]
 **Difficulty:** Easy
 
 **Problem Statement:**
-Implement the `atoi` (ASCII to Integer) function, which converts a string to a 32-bit signed integer. The function should: (1) discard leading whitespace, (2) check for an optional `+` or `-` sign, (3) read in digits until a non-digit character is reached or end of string, (4) convert the digits to an integer. If the result overflows, clamp it to `INT_MIN` (-2³¹) or `INT_MAX` (2³¹ - 1). Return 0 if no valid conversion can be performed.
+Implement the `atoi` (ASCII to Integer) function, which converts a string to a 32-bit signed integer. The function
+should: (1) discard leading whitespace, (2) check for an optional `+` or `-` sign, (3) read in digits until a non-digit
+character is reached or end of string, (4) convert the digits to an integer. If the result overflows, clamp it to
+`INT_MIN` (-2³¹) or `INT_MAX` (2³¹ - 1). Return 0 if no valid conversion can be performed.
 
 **Examples:**
 
@@ -1259,6 +1383,7 @@ Output: 4193
 Easy: 0 | Medium: 1 | Hard: 1
 
 **Key Patterns Tested:**
+
 - Shortest path algorithms (BFS/Dijkstra)
 - Graph modeling from real-world data
 
@@ -1269,7 +1394,10 @@ Easy: 0 | Medium: 1 | Hard: 1
 **Difficulty:** Medium
 
 **Problem Statement:**
-You are given a train network represented as a graph where stations are nodes and direct routes between stations are edges with associated travel times (weights). Implement a `shortestPath(fromStation, toStation)` method that returns the shortest travel time (or path) between two stations. Use BFS for unweighted graphs or Dijkstra's algorithm for weighted graphs. Handle disconnected stations gracefully.
+You are given a train network represented as a graph where stations are nodes and direct routes between stations are
+edges with associated travel times (weights). Implement a `shortestPath(fromStation, toStation)` method that returns the
+shortest travel time (or path) between two stations. Use BFS for unweighted graphs or Dijkstra's algorithm for weighted
+graphs. Handle disconnected stations gracefully.
 
 **Examples:**
 
@@ -1288,7 +1416,9 @@ Output: -1
 **Difficulty:** Hard
 
 **Problem Statement:**
-Given a web server log file where each line contains an IP address and request details, parse the log and determine the IP address(es) that accessed the site most frequently. Handle large log files efficiently. If multiple IP addresses have the same highest frequency, return all of them. This combines file parsing, hashing, and sorting concepts.
+Given a web server log file where each line contains an IP address and request details, parse the log and determine the
+IP address(es) that accessed the site most frequently. Handle large log files efficiently. If multiple IP addresses have
+the same highest frequency, return all of them. This combines file parsing, hashing, and sorting concepts.
 
 **Examples:**
 
@@ -1313,6 +1443,7 @@ Output: All tied IPs
 Easy: 1 | Medium: 2 | Hard: 0
 
 **Key Patterns Tested:**
+
 - Password validation logic
 - Function composition (higher-order functions)
 - Concurrency concepts (deadlock)
@@ -1325,7 +1456,9 @@ Easy: 1 | Medium: 2 | Hard: 0
 
 **Problem Statement:**
 Given a password string, determine its strength based on the following criteria:
-- **Strong:** Contains at least one lowercase letter, one uppercase letter, one digit, one special character (`!@#$%^&*(`), and length ≥ 8.
+
+- **Strong:** Contains at least one lowercase letter, one uppercase letter, one digit, one special character (
+  `!@#$%^&*(`), and length ≥ 8.
 - **Moderate:** Contains at least one lowercase, one uppercase, one special character, and length ≥ 6.
 - **Weak:** Does not meet the above criteria.
 
@@ -1351,7 +1484,10 @@ Output: "Weak"
 **Difficulty:** Medium
 
 **Problem Statement:**
-Write a program that demonstrates a deadlock scenario using two threads and two shared resources (locks/monitors). Thread 1 should acquire Lock A and then attempt to acquire Lock B, while Thread 2 acquires Lock B and then attempts to acquire Lock A. This mutual circular waiting creates a deadlock. This is a conceptual question — do NOT run in a production environment.
+Write a program that demonstrates a deadlock scenario using two threads and two shared resources (locks/monitors).
+Thread 1 should acquire Lock A and then attempt to acquire Lock B, while Thread 2 acquires Lock B and then attempts to
+acquire Lock A. This mutual circular waiting creates a deadlock. This is a conceptual question — do NOT run in a
+production environment.
 
 **Examples:**
 
@@ -1371,7 +1507,10 @@ Conceptual Output:
 **Difficulty:** Medium
 
 **Problem Statement:**
-Write a `compose` function that accepts an array of single-argument functions and returns a new function. When the composed function is called with an argument, it should apply the functions from left to right (or right to left, depending on convention). The output of each function becomes the input of the next. Support binding context (`this`) for method calls.
+Write a `compose` function that accepts an array of single-argument functions and returns a new function. When the
+composed function is called with an argument, it should apply the functions from left to right (or right to left,
+depending on convention). The output of each function becomes the input of the next. Support binding context (`this`)
+for method calls.
 
 **Examples:**
 
@@ -1391,6 +1530,7 @@ Output: 3  (multiplyBy2(1) = 2, add1(2) = 3)
 Easy: 1 | Medium: 1 | Hard: 0
 
 **Key Patterns Tested:**
+
 - Coordinate tracking
 - Simulation of movement
 
@@ -1401,7 +1541,9 @@ Easy: 1 | Medium: 1 | Hard: 0
 **Difficulty:** Easy
 
 **Problem Statement:**
-A robot starts at position `(0, 0)` on a 2D grid. Given a string of movement commands where `'U'` moves up (y+1), `'D'` moves down (y-1), `'L'` moves left (x-1), and `'R'` moves right (x+1), compute the robot's final position after executing all commands. Ignore any characters that are not `U`, `D`, `L`, or `R`.
+A robot starts at position `(0, 0)` on a 2D grid. Given a string of movement commands where `'U'` moves up (y+1), `'D'`
+moves down (y-1), `'L'` moves left (x-1), and `'R'` moves right (x+1), compute the robot's final position after
+executing all commands. Ignore any characters that are not `U`, `D`, `L`, or `R`.
 
 **Examples:**
 
@@ -1420,7 +1562,9 @@ Output: (3, 0)  — 3 right, 3 up, 2 down → (3, 1)... correction: U×3, R×3, 
 **Difficulty:** Medium
 
 **Problem Statement:**
-Given a list of `(video_name, watch_rate)` tuples where a video name may appear multiple times, compute the total watch rate for each unique video by summing all its entries. Return the top 10 videos sorted by their total watch rate in descending order. If there are fewer than 10 unique videos, return all of them sorted.
+Given a list of `(video_name, watch_rate)` tuples where a video name may appear multiple times, compute the total watch
+rate for each unique video by summing all its entries. Return the top 10 videos sorted by their total watch rate in
+descending order. If there are fewer than 10 unique videos, return all of them sorted.
 
 **Examples:**
 
@@ -1443,7 +1587,9 @@ Output: ["a", "b", "c"]  (tie broken by order or alphabetically)
 **Difficulty:** Medium
 
 **Problem Statement:**
-Given a set of available letters and a dictionary of words, find the longest word(s) in the dictionary that can be formed using only the available letters (each letter used at most once, or as many times as it appears in the input). If multiple words share the maximum length, return all of them.
+Given a set of available letters and a dictionary of words, find the longest word(s) in the dictionary that can be
+formed using only the available letters (each letter used at most once, or as many times as it appears in the input). If
+multiple words share the maximum length, return all of them.
 
 **Examples:**
 
@@ -1466,7 +1612,9 @@ Output: ["dog", "god"]
 **Difficulty:** Medium
 
 **Problem Statement:**
-Given a string of words and two target words, find the minimum distance between the two target words in terms of the number of words between them. The distance is measured from the middle (center character) of one word to the middle of the other, counting characters. If multiple occurrences exist, return the minimum distance found.
+Given a string of words and two target words, find the minimum distance between the two target words in terms of the
+number of words between them. The distance is measured from the middle (center character) of one word to the middle of
+the other, counting characters. If multiple occurrences exist, return the minimum distance found.
 
 **Examples:**
 
