@@ -14,20 +14,20 @@
 
 ### Topic Summary Table
 
-| Topic                                            | Total    |  Easy   | Medium | Hard |
-|--------------------------------------------------|:--------:|:-------:|:------:|:----:|
-| [Strings](#strings)                              |  14      | 10 [✅] |   4    |  0   |
-| [Arrays](#arrays)                                |  13      | 5 [✅]  |   7    |  1   |
-| [Math / Number Theory](#math--number-theory)     |   9      | 6 [✅]  |   2    |  1   |
-| [Sorting & Searching](#sorting--searching)       |   6      | 2 [✅]  |   3    |  1   |
-| [Dynamic Programming](#dynamic-programming)      |   4      |   1      |   2    |  1   |
-| [Linked Lists](#linked-lists)                    |   3 [✅] | 1 [✅]  | 2 [✅]  |  0   |
-| [Trees (BST)](#trees-bst)                        |   2      |   2      |   0    |  0   |
-| [Stacks & Queues](#stacks--queues)               |   3 [✅]      |   1 [✅] |   2 [✅]    |  0   |
-| [Graphs](#graphs)                                |   2      |   0      |   1    |  1   |
-| [Hashing](#hashing)                              |   4      |   2      |   2    |  0   |
-| [Design / Miscellaneous](#design--miscellaneous) |   3      |   1      |   2    |  0   |
-| [Simulation](#simulation)                        |   2      |   1      |   1    |  0   |
+| Topic                                            | Total |  Easy  | Medium | Hard |
+|--------------------------------------------------|:-----:|:------:|:------:|:----:|
+| [Strings](#strings)                              |  14   | 10 [✅] |   4    |  0   |
+| [Arrays](#arrays)                                |  13   | 5 [✅]  |   7    |  1   |
+| [Math / Number Theory](#math--number-theory)     |   9   | 6 [✅]  |   2    |  1   |
+| [Sorting & Searching](#sorting--searching)       |   6   | 2 [✅]  |   3    |  1   |
+| [Dynamic Programming](#dynamic-programming)      |   4   |   1    |   2    |  1   |
+| [Linked Lists](#linked-lists)                    | 3 [✅] | 1 [✅]  | 2 [✅]  |  0   |
+| [Trees (BST)](#trees-bst)                        |   2   |   2    |   0    |  0   |
+| [Stacks & Queues](#stacks--queues)               | 3 [✅] | 1 [✅]  | 2 [✅]  |  0   |
+| [Graphs](#graphs)                                |   2   |   0    |   1    |  1   |
+| [Hashing](#hashing)                              |   4   |   2    |   2    |  0   |
+| [Design / Miscellaneous](#design--miscellaneous) |   3   |   1    |   2    |  0   |
+| [Simulation](#simulation)                        |   2   |   1    |   1    |  0   |
 
 ---
 
@@ -442,6 +442,7 @@ Output: 31  — (2*3) + (2*5) + (3*5) = 6 + 10 + 15 = 31
 **Problem Statement:**
 Given an array of single-digit integers, determine whether it is possible to concatenate all the digits (in any order)
 to form a number that is divisible by 3. A number is divisible by 3 if and only if the sum of its digits is divisible by
+
 3. You must use all digits in the array.
 
 **Examples:**
@@ -666,6 +667,7 @@ Output: false  (1³ + 2³ + 3³ = 1 + 8 + 27 = 36 ≠ 123)
 **Problem Statement:**
 Given two positive integers `x` and `y`, determine whether `x` is a power of `y`. That is, check if there exists a
 non-negative integer `k` such that `y^k == x`. Handle edge cases where `y` is 1 (only `x = 1` is valid) and where `x` is
+
 0.
 
 **Examples:**
@@ -1246,6 +1248,7 @@ Output: 20 ⇄ 10
 Easy: 1 | Medium: 2 | Hard: 0
 
 **Key Patterns Tested:**
+
 - Stack-based simulation
 - Expression parsing
 - Queue implementation using stacks
