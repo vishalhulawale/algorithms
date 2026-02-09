@@ -16,18 +16,18 @@
 
 | Topic                    | Total | Easy | Medium | Hard |
 |--------------------------|:-----:|:----:|:------:|:----:|
-| Strings                  |  14   |  10 [✅]  |   4    |  0   |
-| Arrays                   |  13   |   5 [✅]  |   7    |  1   |
-| Math / Number Theory     |   9   |   6  |   2    |  1   |
-| Sorting & Searching      |   6   |   2 [✅]  |   3    |  1   |
-| Dynamic Programming      |   4   |   1  |   2    |  1   |
-| Linked Lists             |   3   |   1  |   2    |  0   |
-| Trees (BST)              |   2   |   2  |   0    |  0   |
-| Stacks & Queues          |   3   |   1  |   2    |  0   |
-| Graphs                   |   2   |   0  |   1    |  1   |
-| Hashing                  |   4   |   2  |   2    |  0   |
-| Design / Miscellaneous   |   3   |   1  |   2    |  0   |
-| Simulation               |   2   |   1  |   1    |  0   |
+| [Strings](#strings)                  |  14   |  10 [✅]  |   4    |  0   |
+| [Arrays](#arrays)                   |  13   |   5 [✅]  |   7    |  1   |
+| [Math / Number Theory](#math--number-theory)     |   9   |   6 [✅]  |   2    |  1   |
+| [Sorting & Searching](#sorting--searching)      |   6   |   2 [✅]  |   3    |  1   |
+| [Dynamic Programming](#dynamic-programming)      |   4   |   1  |   2    |  1   |
+| [Linked Lists](#linked-lists)             |   3   |   1  |   2    |  0   |
+| [Trees (BST)](#trees-bst)              |   2   |   2  |   0    |  0   |
+| [Stacks & Queues](#stacks--queues)          |   3   |   1  |   2    |  0   |
+| [Graphs](#graphs)                   |   2   |   0  |   1    |  1   |
+| [Hashing](#hashing)                  |   4   |   2  |   2    |  0   |
+| [Design / Miscellaneous](#design--miscellaneous)   |   3   |   1  |   2    |  0   |
+| [Simulation](#simulation)               |   2   |   1  |   1    |  0   |
 
 ---
 
@@ -678,7 +678,7 @@ Output: (5, 6)
 
 ---
 
-## 33: Prime Factorization
+## [✅] 33: Prime Factorization
 
 **Difficulty:** Easy
 
