@@ -22,7 +22,7 @@
 | [Sorting & Searching](#sorting--searching)       |   6   | 2 [✅]  |   3    |  1   |
 | [Dynamic Programming](#dynamic-programming)      |   4   |   1    |   2    |  1   |
 | [Linked Lists](#linked-lists)                    | 3 [✅] | 1 [✅]  | 2 [✅]  |  0   |
-| [Trees (BST)](#trees-bst)                        |   2   |   2    |   0    |  0   |
+| [Trees (BST)](#trees-bst)                        |   2 [✅]  |   2 [✅]    |   0    |  0   |
 | [Stacks & Queues](#stacks--queues)               | 3 [✅] | 1 [✅]  | 2 [✅]  |  0   |
 | [Graphs](#graphs)                                |   2   |   0 [✅]    |   1    |  1   |
 | [Hashing](#hashing)                              |   4 [✅]   |   2 [✅]    |   2 [✅]    |  0   |
