@@ -18,6 +18,7 @@ public class PowerOf10Check {
 
         while (x % 10 == 0) {
             x /= 10;
+            System.out.println("Current value of x: " + x);
         }
 
         return x == 1;
@@ -29,5 +30,8 @@ public class PowerOf10Check {
 
         int input2 = 500;
         System.out.println(isPowerOf10(input2)); // Expected output: false
+
+        int input3 = 15;
+        System.out.println(isPowerOf10(input3)); // Expected output: false
     }
 }
