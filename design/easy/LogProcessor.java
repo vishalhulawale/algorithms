@@ -1,4 +1,4 @@
-package design.hard;
+package design.easy;
 
 // 60: Apache Log — Most Frequent IP Address
 // Difficulty: Hard
